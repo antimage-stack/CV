@@ -107,3 +107,15 @@ main {
     max-width: 800px;
     margin: 0 auto;
 }
+@media (max-width: 500px ) {
+    .header-text {
+        margin-left: 50px;
+    }
+    .my-aim {
+        font-size: 15px;
+    }
+    .about-me-list {
+        display: flex;
+        flex-direction: column;
+    }
+}
