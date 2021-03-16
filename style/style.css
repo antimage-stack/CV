@@ -51,6 +51,7 @@ main {
     justify-content: space-between;
 }
 .about-me-item {
+    padding-top: 15px;
     padding-top: 20px;
     max-width: 250px;
     padding-right: 20px;
@@ -115,9 +116,34 @@ main {
 .footer-item {
     width: 55px;
 }
+@media (max-width: 768px) {
+    .about__me {
+        max-width: 200px;
+    }
+    .course {
+        max-width: 220px;
+    }
+    .education {
+        max-width: 250px;
+    }
+    .my-aim {
+        font-size: 20px;
+    }
+}
 @media (max-width: 500px ) {
     .header-text {
         margin-left: 50px;
+        font-size: 12px;
+    }
+    .skill-ico {
+        width: 40px;
+        height: 40px;
+    }
+    .header-name {
+        width: 83%;
+    }
+    .header-title {
+        font-size: 20px;
     }
     .my-aim {
         font-size: 15px;
@@ -132,17 +158,8 @@ main {
         width: 30px;
     }
 }
-@media (max-width: 380px ) {
-    .logo {
-        width: 50px;
-    }
+@media (max-width: 380px) {
     .header-nav-item {
-        font-size: 13px;
-    }
-    .header-title {
-        font-size: 30px;
-    }
-    .header-text {
         font-size: 13px;
     }
 }
